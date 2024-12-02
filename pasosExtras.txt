@@ -1,0 +1,4 @@
+ Paso   Acción                       Notas
+====== ============================ ================================ 
+ (22)	push					La rama main o master ya está subida en el remoto ya que es la primera que se crea, por lo que simplemente se hace un push de los cambios
+ (23)	switch SegundaRama
