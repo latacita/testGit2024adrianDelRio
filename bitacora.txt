@@ -9,3 +9,6 @@
  (01)	clone
  (04)	branch PrimeraRama + switch PrimeraRama
  (06)	branch SegundaRama + switch SegundaRama
+ (13)	switch SegundaRama
+ (14)			Esta fusión sería recursiva, y además recursiva con conclicto, ya que en el commit con mensaje "Paso 07" de la SegundaRama se redactó el paso 06 debajo del paso 04, y en el commit con mensaje "Paso 12" de la PrimeraRama se radactó el paso 11 debajo del paso 04, esto genera un conclicto por colisionar en la misma linea editada. Si solo quisieramos analizar si es recursiva habría bastado con mencionar que ambas ramas han realizado un commit desde el punto en el que divergieron, pero se especifica más la respuesta por completitud.
+ (15)			Esta fusión sería fast-forward, ya que la rama PrimeraRama simplemente es una versión más avanzada que master o main, y no presentan ningún commit de divergencia como en el caso anterior.
