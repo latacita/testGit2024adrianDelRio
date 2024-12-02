@@ -8,3 +8,4 @@
 ====== ============================ ================================
  (01)	clone
  (04)	branch PrimeraRama + switch PrimeraRama
+ (11)	git stash + switch PrimeraRama
