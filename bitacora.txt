@@ -7,3 +7,9 @@
  Paso   Acción                       Notas
 ====== ============================ ================================
  (01)	clone
+ (08)	push SegundaRama remotes/origin/SegundaRama		Este comando no es literal, se ejecutó desde una GUI, pero se sube la rama local a una remota
+ (09)	switch master
+ (17)	switch PrimeraRama
+ (18)	git merge + git add . + git commit	Fusión recursiva con conflictos, se integran de forma ordenada el paso añadido por la PrimeraRama (Paso 11) y los pasos anhadidos por la SegundaRama (Pasos 06-15)
+ (19)	switch master
+ (20)	stash apply + stash drop		El ultimo es opcional, se ejecuta porque se asume que no se va a volver a utilizar
