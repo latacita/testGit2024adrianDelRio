@@ -13,3 +13,6 @@
  (18)	git merge + git add . + git commit	Fusión recursiva con conflictos, se integran de forma ordenada el paso añadido por la PrimeraRama (Paso 11) y los pasos anhadidos por la SegundaRama (Pasos 06-15)
  (19)	switch master
  (20)	stash apply + stash drop		El ultimo es opcional, se ejecuta porque se asume que no se va a volver a utilizar
+ (26)	tag "PasosExtras"
+ (27)	switch master
+ (28)	cherry-pick PasosExtras
